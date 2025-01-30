@@ -10,7 +10,8 @@ function estPalindrome(mot) {
 }
 
 // Exemple d'utilisation
-const mot = prompt("Entrez un mot :");
+// const mot = prompt("Entrez un mot :");
+const mot = "Engage le jeu que je le gagne";
 if (estPalindrome(mot)) {
   document.write(`${mot} est un palindrome.`);
 } else {
